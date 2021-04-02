@@ -1,0 +1,52 @@
+<html>
+
+<head>
+ <title> Hotel Management </title>
+</head>
+
+<body>
+<h3>Booking Page</h3>
+<form action ='expense.html'>
+<label>FirstName</label>:<input type='text' name='userfirst'/><br/>
+<label>LastName</label>:<input type='text' name='userLast'/><br/>
+
+<label>Gender</label>:
+<input type='radio' id='male' name='gender' value='male'>
+<label for='male'>Male</label>
+<input type='radio' id='female' name='gender' value='female'>
+<label for='male'>Female</label><br/>
+
+<label for='City'>City:</label>
+<select name='City' id='City'>
+<option>--Select City--</option>
+<option value='Delhi'>Delhi</option>
+<option value='Mumbai'>Mumbai</option>
+<option value='Mumbai'>Bangalore</option>
+</select><br/>
+
+<label for='type'>Type of room:</label>
+<select name='type' id='type'>
+<option>--Select type of room--</option>
+<option value='One'>Basic</option>
+<option value='Two'>Executive</option>
+<option value='Three'>Premium</option>
+</select><br/>
+
+<label>Amenities</label>:
+<input type='checkbox' id='amenity1' name='amenity1' value='Breakfast'>
+<label for='amenity1'>Breakfast</label>
+<input type='checkbox' id='amenity2' name='amenity2' value='Balcony'>
+<label for='amenity2'>Balcony</label>
+<input type='checkbox' id='amenity3' name='amenity3' value='Jacuzzi'>
+<label for='amenity3'>Jacuzzi</label><br/>
+
+<label>No of rooms</label>:<input type="number"/><br/>
+<label>From</label>:<input type="date"/><br/>
+<label>To</label>:<input type="date"/>
+<input type="submit" value="Book"/>
+<input type='reset'/>
+</form>
+<a href="dashboard.html">Back</a>
+</body>
+
+</html>
